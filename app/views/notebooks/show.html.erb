@@ -3,7 +3,7 @@
 <h3 class='d-flex justify-content-between mb-3'>
   <%= @notebook.title %>
   <div>
-    <%= link_to 'Edit', edit_notebook_path(@notebook) %> |
+    <%= link_to 'Edit', edit_notebook_path(@notebook), class: 'btn btn-light' %> |
     <%= link_to 'back', notebooks_path, class: 'btn btn-secondary' %>
   </div>
 </h3>
